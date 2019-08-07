@@ -1,0 +1,136 @@
+
+/* DEFAULT-STYLES start */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 15px;
+}
+
+body {
+	position: relative;
+	font-family: 'Opensans', Helvetica, Arial, sans-serif;
+	color: #777;
+	line-height: 1.7;
+}
+
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+button {
+	border: none;
+	cursor: pointer;
+}
+
+
+/* DEFAULT-STYLES end */
+
+
+
+.main-header {
+	height: 100px;
+	padding: 50px;
+	align-content: space-between;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+.logo{
+	align-items: center;
+	cursor: pointer;
+}
+
+.menu-icons{
+	cursor: pointer;
+}
+
+.bg-poster {
+    background-image: url('../img/Roseroom-s-01.jpg');
+    background-position: center;
+    background-size: cover;
+	height: 100vh;
+	opacity: 0.74;
+}
+
+.main-header {
+	background-color: #00000017;
+
+}
+
+.title{
+	height: 500px;
+	background-color: white;
+	padding: 245px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.title-t {
+	font-size: 20px;
+}
+
+.statistics {
+	height: 320px;
+	background-color: black;
+}
+
+.statistics-block{
+	padding: 140px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.statistics-block img {
+	cursor: pointer;
+}
+
+.contact {
+	padding-top: 40px;
+	height: 400px;
+	background-color: white;
+}
+
+.span-shared {
+	padding: 24px;
+}
+
+.contact-me {
+	padding-top: 40px;
+	background-color: black;
+	color: white;
+	padding: 18px 42px;
+	font-size: 1.1em;
+}
+
+footer {
+	height: 200px;
+	background-color: #00000017;
+}
+
+.social-bar{
+	padding: 50px;
+    display: flex;
+	justify-content: center;
+}
+
+
+
+.social-bar img {
+	height: 65px;
+	cursor: pointer;
+}
